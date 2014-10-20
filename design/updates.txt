@@ -1,0 +1,22 @@
+Updates-Peter Podniesinski
+
+Basically since the first deliverable I
+have made the following changes
+
+1.Changed the user interface so that users can
+type the words and enter them upon using the
+return key rather than being prompted in the console
+
+Furthermore, this change was seriously key for my
+program because prompting briefly pauses programs
+until the user answers the prompt. Thus You could not
+work with my canvas since it "Did not respond"
+2.Users can also use a very interesting feature
+where they can click the board to create words.
+The board tiles they click turn green when done 
+making for a much more engaging game.
+3.My program now has a displayed time and score
+4.There is a gameOver Feature
+five. I have added 4 buttons of which 2 are functional.
+	The buttons so far only pause and start the game.
+

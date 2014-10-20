@@ -1,0 +1,27 @@
+Peter Podniesinski
+Term Project : Features
+
+1.Add a main menu
+	-Play
+	-Instructions
+	-settings ( with modes )
+		~Regular
+		~Speed Round
+		~Sounds 
+			--Sounds for right/wrong words 
+			upon clicking "Return"
+
+2. Make a list of guessed words that you
+can scroll through.
+3. Fraction displaying words guessed/Total
+	-use algorithmic helper function to 
+	calculate this using recursive backtracking
+4.Double Value letters randomly selected from the board
+five. Words over five letters Long are worth 
+double value.
+6.Make adequet boards that generate sufficient
+amounts of words.
+	-EX). While (canvas.data.numWords<20):
+				loadBoogleBoard(canvas)
+
+

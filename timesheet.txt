@@ -1,0 +1,47 @@
+Peter Podniesinski 
+Term Project: Time Sheet
+
+4/12--3 hours spent in clusters
+4/13--2 hours spent  Researching similar products,
+	potential options like features, friendly UI possibilities,
+	modes and settings.
+4/14--2 hour spent debugging and planning next steps 
+	in the project.(Understanding the Problem)
+4/16--4 hours- improving User Interface. Adding Score
+	and time features to increase functionality of the 
+	game
+4/17--1 1/2 hours- used to debug and fix word dictionary
+	acessing. Acquire text files and create functions to
+	prompt user
+4/22--2pm-4pm:2 hours spent debugging program and introducing
+	still non-functional buttons to later on be used for
+	features
+4/22--6:30-11 time spent seriously changing functionality 
+	and fundamental use of program. Also fixed serious bug
+	with dictionary acess
+4/23--3 hours
+4/24--2 hours
+4/26--3 hours spent writting program to recursively check for 
+	words on the board via backtracking
+4/27--3 hours spent increasing UI where you can type the letters 
+	and see them on the screen. Also, worked on utilizing backspace
+	with this feature. Increased UI so that you could click/un-click tiles
+	with the word being registered appropriately.
+4/28--2 hour spent creating a speed round mode where every word 
+	made is tallied up for 13 constant points. Continued working on splash
+	screen and instructions menu
+4/28--8-12 pm 4 hours spent creating really neat AI which solves the boggle board
+	and displays the total number of possible words. This was done by scripting
+	through my dictionary file. Next I applied these functions to also display a 
+	maximum possible Score( also great UI ). I introduced more features on the
+	main menu screen so that I can turn sound on/off. Had to debug the two functions that displayed total words and best score so that they update when
+	a player rotates the board at the begining of the game.
+4/29--5 hours spent Debugged a major bug in my recursive OnBoard() function
+	which would infinite loop on certaint words. Had odd bug which kept displaying buttons on consecutive screens including my (Instructions and Highscore page). Added an interesting feature where board is hidden gray whenever the game is Paused so that people cannot cheat. Also included a highScores list which updates itself and records high scores even when the game is offLine. Then I added a main menu Button on the play screen so that you can go back to the main menu. Finally I got my replay function to work 
+	correctly
+4/30--4 hours spent making final touch ups. I included a highScore display 
+	which shows the top high score in my scores.txt file. This helps users compare what they have done and how they are doing. I created the readme.txt files, design folders and files explaining that, I put time into downloading software and getting my youtube video to work. Also, fixed a minor bug with my instructions/highScores page.
+5/1--2 hours spent finalizing total project, testing every feature, making sure 	every piece of code works properly. Uploading and finishing completely.
+
+
+Total Time Spent: 47 hours

@@ -1,0 +1,13 @@
+User Study Lab
+
+Swathi:
+1.Change the game so that it displays the keys you are
+typing. Also, Utilize backspace option. 
+2.Have correct words displayed green, incorrect-red
+3.Once words pile up to a threshold distance, change the
+font and spacing! So that it does not go off the board
+
+Matt:
+1.click and un click board spaces 
+2.Introduce sounds for background music/ correct and
+incorrect words

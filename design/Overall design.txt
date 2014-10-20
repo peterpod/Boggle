@@ -1,0 +1,38 @@
+Peter Podniesinski- Design
+
+In my project I set out to fulfill the task of creating an
+engaging and user friendly Boggle game. To solve this task
+I began by generating code necessary to simply display a 
+canvas, a 4x4 board in the appropriate location with the 
+letters and letterscores displayed within each cell. 
+
+From that point, I progressed by investing into coding up 
+a user Interface where the game can actually be played. I began,
+by prompting users moves however this method posed a grand problem
+so instead I changed my program to take in information from keys pressed
+as well as taking in words by clicking the words. Then by clicking "return"
+I was able to record guessed words and score them appropriately. One
+of the hardest challanges in this task was both checking if the word
+is in a dictionary as well as checking if a word is on the board. To
+create a dictionary I downloaded a txt file with lowercase letters spanning
+every line. Then I stripped the program line by line to create a python
+based dictionary. From then on every word entered would be tested to see
+if it is in the dicitonary. Another problem I faced was to check if words
+are on the board. To accomplish this task I created a recursive backtracking
+function that would check letters in all 8 directions to see if words 
+could be formed with appropriate letters.
+
+My program contains the following important functions: getDictionary()
+which loads in a dictionary from a text file so that I can check words appropriately. Then I have an OnBoard() function which recursively backtracks
+through each letter on the board to check if words are on the 4x4 board.
+Then I have a boggle Solver Function which returns a set of all the possible
+words on the Board from that set I was able to calculte and display a high Score.
+Another important function was drawGuessedWords(canvas), this function will
+draw the words you guess to the left of the screen displaying correct guessed in
+green and wrong in red. I also included different beeps/buzzer sounds that
+would ring when a user enters words. Also, in the drawGuessedWords() function
+i took care of also drawring letters on the board which would respond to backspace so that players can see the words they type. Another, function I created included an interesting feature where players can click adjacent tiles on the screen to enter words.
+
+Other simple yet very important to my UI, include my various buttons in the project which start, pause, rotate and shuffle the board. Further features include a  main menu splash screen which includes instructions, speed round feature, a high scores page which keeps track of high scores even when the game is off, and also a button that turns sound ON or OFF. 
+
+Before begining my project I researched many different products and programs that featured similar boggle games(like wordament-microsoft app, or boggle app for ipods). While, many of their programs were good and very fun, some of these apps were simply too cluttered and confusing. They contained so many features and information that when all of it was put together, they acted as a distraction. For that reason in my boggle program I tried to create an appealing UI that was not over cluttered by only including the most important features with high utility.
